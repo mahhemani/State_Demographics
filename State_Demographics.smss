@@ -1,0 +1,15 @@
+Base Properties 
+ENGINE	State_Demographics
+OWL	db/@engine@/State_Demographics_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_INSIGHTS	db/@engine@/insights_database
+SOLR_RELOAD	false
+HIDDEN_DATABASE	false
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
+USE_OUTER_JOINS	false
+# USE_CONNECTION_POOLING	true
